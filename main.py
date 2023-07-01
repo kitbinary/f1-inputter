@@ -40,7 +40,7 @@ def create_points():
 def create_races():
     file = open(year +"_results.txt", "a")
 
-    print("Add the race name without 'Grand Prix', e.g. 'Australian\n")
+    print("Add the race name without 'Grand Prix', e.g. just 'Australian'\n")
     for i in range(int(races)):
         race = input("race "+ str(i+1) + " name: ") + " Grand Prix"
         flag = input("race "+ str(i+1) + " flag: ")
