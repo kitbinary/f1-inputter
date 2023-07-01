@@ -76,15 +76,10 @@ print("F1 Liquidpedia Inputter V0.1\nBy: kitbinary\n")
 
 #run functions
 startup()
-#create_opening()
-#create_points()
+create_opening()
+create_points()
 create_races()
-#create_drivers()
+create_drivers()
 
 #close file
 print("Data written!")
-
-
-
-
-
